@@ -8,7 +8,7 @@ image:
   repository: spammyoas/backend
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 188e93f51a47f53f55d4690b7a361564bf676a78
+  tag: 85aefe71538f8e48c2bf287e7099634fbdadbe4e
 
 imagePullSecrets: []
 nameOverride: "backend"
@@ -23,7 +23,7 @@ serviceAccount:
   annotations: {}
   # The name of the service account to use.
   # If not set and create is true, a name is generated using the fullname template
-  name: 188e93f51a47f53f55d4690b7a361564bf676a78
+  name: 85aefe71538f8e48c2bf287e7099634fbdadbe4e
 
 podAnnotations: {}
 podLabels: {}
@@ -47,7 +47,7 @@ service:
 
 ingress:
   enabled: false
-  className: 188e93f51a47f53f55d4690b7a361564bf676a78
+  className: 85aefe71538f8e48c2bf287e7099634fbdadbe4e
   annotations:
     {}
     # kubernetes.io/ingress.class: nginx
